@@ -2,14 +2,14 @@
   "name": "ohmage-es6",
   "version": "1.0.0",
   "description": "Ohmage client JS library written in ES6",
-  "main": "lib/ohamge.js",
+  "main": "./lib/ohmage.js",
   "scripts": {
     "version": "node_modules/babel-cli/bin/babel.js src --out-dir lib"
   },
   "author": "Kapeel Sable <kapeel.sable@gmail.com>",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
