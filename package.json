@@ -1,6 +1,6 @@
 {
   "name": "ohmage-es6",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Ohmage client JS library written in ES6",
   "main": "./lib/ohmage.js",
   "scripts": {
@@ -15,5 +15,16 @@
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobilizingcs/ohmage-es6.git"
+  },
+  "keywords": [
+    "ohmage"
+  ],
+  "bugs": {
+    "url": "https://github.com/mobilizingcs/ohmage-es6/issues"
+  },
+  "homepage": "https://github.com/mobilizingcs/ohmage-es6#readme"
 }
