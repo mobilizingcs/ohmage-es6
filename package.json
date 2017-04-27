@@ -1,6 +1,6 @@
 {
   "name": "ohmage-es6",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ohmage client JS library written in ES6",
   "main": "./lib/ohmage.js",
   "scripts": {

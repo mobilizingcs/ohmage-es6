@@ -122,6 +122,15 @@ class Ohmage {
     return this.__call( '/user/read', { user_list: users.join( ',' ) } );
   }
 
+  classCreate( class_urn, class_name, description = '' ) {
+    return this.__call( '/class/create', { class_urn, class_name, description } );
+  }
+
+  classUpdate( class_urn, parameters = { } ) {
+    parameters.class_urn = class_urn;
+    return this.__call( '/class/update', parameters );
+  }
+
 }
 
 export default Ohmage;
